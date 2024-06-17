@@ -102,26 +102,13 @@ The 0g3 scanner is akin to Polygon and Ethereum scanners, allowing you to track 
 ### Endpoints
 
 - **Generate Code**
-    
-    python
-    
-    Copy code
-    
     `path("generate_code", generate_solidity_code, name="generate_solidity_code")` 
     
 - **Compile**
     
-    python
-    
-    Copy code
-    
     `path("compile", compile, name="compile")` 
     
 - **Scan**
-    
-    python
-    
-    Copy code
     
     `path("scan", scan, name="scan")` 
     
